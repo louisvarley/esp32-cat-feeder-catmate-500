@@ -19,13 +19,12 @@ A hacked C500 cat feeder controlled via a web interface and Home Assistant, buil
 | Component | Value / Part | Purpose |
 |---|---|---|
 | ESP32-C3 with OLED | Diymore ESP32-C3 | Main controller, web server, display |
-| IR Optical Sensor | ITR9608 | Detects bowl position |
+| IR Optical Sensor | ITR9608 | Detects bowl position, has one already but this is more reliable and is 3.3v compatable.. ok i might have blown up the originals... |
 | NPN Transistor | 2N2222A | Motor switching |
 | Flyback Diode | 1N4007 | Motor spike protection |
-| Resistor | 1kΩ (Brown-Black-Red) | Transistor base current limiting |
-| Resistor | 200Ω (two 100Ω in series) | IR LED current limiting |
-| USB-C Breakout Board | With CC1/CC2 pins | Power input |
-| Resistors x2 | 5.1kΩ | USB-C CC pins (if not on breakout board) |
+| Resistor | 1kΩ  | Transistor base current limiting |
+| Resistor | 200Ω | IR LED current limiting |
+| USB-C Breakout Board | With CC1/CC2 pins | Power input for mounting the power elsewhere |
 
 ---
 
