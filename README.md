@@ -1,16 +1,16 @@
 # ESP32 Cat Feeder (Cat Mate 500 + Home Assistant)
 
-This project started for one simple reason: I needed to feed my cat properly when I was away.
+This project started for one simple reason: I needed to feed my cat properly when I was away. she only eats very small meals multiple times a day. 
 
-The **Cat Mate C500** is great hardware, but it is built around a short timer cycle. I wanted something I could control remotely and schedule flexibly with **Home Assistant**, including windows longer than 24 hours.
+The **Cat Mate C500** is great feeder, but it is built around a short timer cycle if only 24 hours. I wanted something I could control remotely and schedule flexibly with **Home Assistant**, including windows longer than 24 hours.
 
-With two C500 units and ice packs, I can keep two meals fresh for around **48 hours**. That gives me a much better safety margin for overnight trips and weekends. I prefer being able to watch on camera and judge when she needs feeding rather than 
+With two C500 units and ice packs, I can keep 8 small meals fresh for around **48 hours**. That gives me a much better safety margin for overnight trips and weekends for work. I prefer being able to watch on camera and judge when she needs feeding rather than 
 merely a timer.
 
 
 # ESP32-C3 Cat Feeder
 
-A hacked C500 cat feeder controlled via a web interface and Home Assistant, built around a Diymore ESP32-C3 board with built-in OLED.
+A hacked C500 cat feeder controlled via a web interface and Home Assistant, built around an ESP32-C3 board with built-in OLED.
 
 ---
 
